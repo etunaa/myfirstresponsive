@@ -1,0 +1,39 @@
+header{
+ width: 100%;
+ display: flex;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+nav h{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #111;
+}
+
+.spain{
+    display: block;
+}
+
+.spain img{
+    width: 380px;   
+}
+
+@media only screen and ( min-width:1000px){
+    .spain img{
+        width: 1400px; 
+        padding: 0 0 0 20px;
+    }
+
+    .spain p{
+        padding:0 0 0 20px;
+        line-height: 40px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+}
