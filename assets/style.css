@@ -2,6 +2,9 @@
     text-decoration: none;
 }
 
+body{
+    margin: 0;
+}
 .header{
     background-color:#fff;
     width: 100%;
@@ -116,6 +119,7 @@ header nav {
 
 
 footer{
+    margin-top: 20px;
     width: calc(100% -80px);
     padding: 40px 40px;
     background-color:#111 ;
@@ -176,9 +180,11 @@ footer ul li a {
 }
 
 .favorites-ul{
-    width:fit-content;
+    width: 1000px;
     display: block;
-    list-style: none;  
+    list-style: none; 
+    display: inline;
+    
 }
 
 .favorites-li {
@@ -240,8 +246,8 @@ footer ul li a {
     }
 
     footer{
+        margin: 20px auto;
         width: 1000px;
-        margin: 0 auto;
     }
   
     .header-logo {
@@ -279,7 +285,7 @@ footer ul li a {
 
     
     .favorites-li {
-        margin-left: 180px;
+        
         height:300px;
         background-image: url(../assets/img/venice-gd2e5a4f9a_1920.jpg);
         background-repeat: no-repeat;
@@ -289,7 +295,7 @@ footer ul li a {
     }
     
     .favorites-li1{
-        margin-left: 180px;
+        
         width: 1000px;
         height:300px;
         background-image: url(../assets/img/santorini-g0ed0e5cfc_1920.jpg);
@@ -300,7 +306,7 @@ footer ul li a {
     }
     
     .favorites-li2{
-        margin-left: 180px;
+        
         height:300px;
         background-image: url(../assets/img/bali.jpg);
         background-repeat: no-repeat;
