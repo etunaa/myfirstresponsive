@@ -32,3 +32,7 @@
     background-size: cover;
     background-position: center;
 }
+
+.carousel-inner{
+    margin-top: 50px;
+}
