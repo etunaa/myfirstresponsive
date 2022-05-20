@@ -1,3 +1,34 @@
-.navbar{
-    padding: 500px 600px;
+.nav-link{
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-weight: 400;
+}
+
+.carousel-caption h5{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   font-weight: 700;
+}
+
+.container{
+    margin-top: 50px;
+}
+
+.container p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.scotland{
+    background-image: url(../assets/img/scotland.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+}
+
+.santorini{
+    background-image: url(../assets/img/santorini-g0ed0e5cfc_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
